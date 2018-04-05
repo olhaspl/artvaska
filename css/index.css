@@ -1,0 +1,10 @@
+@import url(header.css);
+@import url(main.css);
+@import url(contacts.css);
+
+
+body {
+max-width: 980px;
+margin: auto;
+/*background-color: #f7f6f6;*/
+}

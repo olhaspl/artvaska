@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Adamina");
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+
+main {
+    max-width: 980px;
+    background-color: #f7f6f6;
+    font-family: 'Alegreya', sans-serif;
+}
+section.about {
+    display: grid;
+    grid-template-rows: 414px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(204, 163, 47, 0.65);
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.5rem;
+}
+.about header {
+    grid-area: 1/2/2/3;
+}
+h2#about {
+    margin-top: 25%;
+    margin-left: 30%;
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+    color: #444444;
+}
+.about div {
+    grid-area: 1/2/2/3;
+    margin-top: 15%;
+    margin-right: 6%;
+    margin-left: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    
+}
+.about p {
+    margin-top: 5%;
+    margin-right: 6%;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.6rem;
+    color: #444444;
+    line-height: 140%;
+}
+figure.photo {
+    grid-column-start: 1;
+    grid-column-end:2;
+    justify-self: center;
+    align-self: center;
+    background-color: #929292;
+}
+#photo {
+    display: flex;
+    width: 317px;
+}
+section.work{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.5rem;
+}
+.work header {
+    grid-area: 1/2/2/3;
+}
+h2#work {
+    margin-top: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+    color: #444444;
+}
+.work div {
+    grid-area: 1/2/2/3;
+    margin-top: 3em;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.work p {
+    margin-right: 7%;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.6rem;
+    color: #444444;
+    line-height: 140%;
+}
+.logoexample {
+    margin-left: 0px;
+}
+.logoexample img {
+    width: 394px;
+}
+ section.books {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.5rem;
+}
+.books header {
+    grid-area: 1/1/2/2;
+}
+ h2#books {
+    margin-top: 25%;
+    margin-left: 20%;
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+    color: #444444;
+}
+.books div {
+    grid-area: 1/1/2/2;
+    margin-top: 3em;
+    margin-right: 1em;
+    margin-left: 1em;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.books p {
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-right: 7%;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.6rem;
+    color: #444444;
+    line-height: 140%;
+}
+#cover {
+    width: 300px;
+}
+section.art {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.5rem;
+}
+.art header {
+    grid-area: 1/2/2/3;
+}
+h2#art {
+    margin-top: 25%;
+    margin-left: 25%;
+    display: flex;
+    justify-self: center;
+    text-decoration: underline;
+    color: #444444;
+}
+.art div {
+    grid-area: 1/2/2/3;
+    margin-top: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.art p {
+    margin-top: 12%;
+    margin-left: 1%;
+    margin-right: 8%;
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.6rem;
+    color: #444444;
+    line-height: 140%;
+}
+figure.cards {
+    margin-left: 0px;
+    width: 394px;
+}
+#card {
+    width: 394px;
+}
+section.contacts {
+    display: grid;
+    grid-template-rows: 55px 115px 400px;
+    background-color: rgba(204, 163, 47, 0.65);
+    font-family: 'Alegreya', sans-serif;
+    font-size: 1.5rem;
+    color: #444444;
+}
+.contacts header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+}
+#contacts {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.contacts div {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-rows: 155px ;
+    grid-template-columns: 1fr 1fr ;
+}
+#fblogo {
+    grid-area: 1/1/2/2;
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: 80px 1fr;
+    margin-right: 0px;
+    margin-left: 2em;
+}
+img.facebook {
+    width: 80px;
+}
+#fblogo figcaption {
+    display: flex;
+    align-self: center;
+    margin-left: 1em;
+}
+#ytlogo {
+    grid-area: 1/2/2/3;
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-columns: 80px 1fr;
+}
+img.youtube {
+    width: 80px;
+}
+#ytlogo figcaption {
+    display: flex;
+    align-self: center;
+    margin-left: 1em;
+}
+#title {
+    display: flex;
+    justify-self: center;
+    font-size: 1.2em;
+    margin-bottom: -3%;
+    margin-top: -2%;
+}
+input, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #929292;
+  box-sizing: border-box;
+  resize: vertical;
+  float: right;
+  margin-right: 10%;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 0.7em;
+}
+#clients-name {
+    background-color: #d4d4d4;
+}
+#clients-email {
+    background-color: #e0e0e0;
+}
+#clients-message {
+    background-color: #ebebeb;
+    height: 30%; 
+}
+label {
+    margin-left: 7%;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.form button {
+    margin-left: 43%;
+    margin-top: 2%;
+    background-color: #c0c0c0;
+    border: 1px solid #929292;
+    width: 30%;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
