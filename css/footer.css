@@ -1,0 +1,17 @@
+footer {
+    
+    background-color: #f7f6f6;
+    font-family: 'Alegreya', sans-serif;
+   
+}
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+div p:nth-child(2) {
+    display: flex;
+    justify-self: right;
+}

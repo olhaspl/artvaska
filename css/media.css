@@ -1,0 +1,50 @@
+#title {
+    display: flex;
+    justify-self: center;
+    font-size: 1.2em;
+    margin-bottom: -3%;
+    margin-top: -2%;
+}
+input, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #929292;
+  box-sizing: border-box;
+  resize: vertical;
+  float: right;
+  margin-right: 10%;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 0.7em;
+}
+#clients-name {
+    background-color: #d4d4d4;
+}
+#clients-email {
+    background-color: #e0e0e0;
+}
+#clients-message {
+    background-color: #ebebeb;
+    height: 30%; 
+}
+label {
+    margin-left: 7%;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.form button {
+    margin-left: 43%;
+    margin-top: 2%;
+    background-color: #c0c0c0;
+    border: 1px solid #929292;
+    width: 30%;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    
+    
+    
