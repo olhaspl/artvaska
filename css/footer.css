@@ -1,22 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya");
 footer {
-    
     background-color: #f7f6f6;
     font-family: 'Alegreya', sans-serif;
-   
 }
 div {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-left: 2%;
     margin-right: 2%;
 }
 
 div p:nth-child(2) {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     justify-self: right;
 }
