@@ -1,11 +1,9 @@
 @import url(header.css);
 @import url(main.css);
-@import url(contacts.css);
 @import url(footer.css);
 
 body {
-max-width: 980px;
-margin: auto;
-box-shadow: 0px 0px 14px 10px rgba(0, 0, 0, 0.1);
-/*background-color: #f7f6f6;*/
+    max-width: 980px;
+    margin: auto;
+    box-shadow: 0px 0px 14px 10px rgba(0, 0, 0, 0.1);
 }

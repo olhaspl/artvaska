@@ -627,6 +627,11 @@ img.youtube {
         width: 50px;
     }
 }
+@media(max-width:560px) {
+    #contacts {
+        margin-top: -5px;
+    }
+}
 @media (max-width: 480px) {
     section.contacts {
         grid-template-rows: 40px 130px 320px;
